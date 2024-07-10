@@ -1,4 +1,5 @@
 require_relative 'lib/app/scrapper'
+require 'google/apis/sheets_v4'
 
 # Crée une nouvelle instance de la classe Scrapper
 scrapper = Scrapper.new
